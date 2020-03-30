@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_monthly"
+        android:enabled="true"
+        android:icon="@drawable/star"
+        android:title="@string/title_monthly"
+        app:showAsAction="ifRoom|withText"
+        />
+
+    <item
+        android:id="@+id/navigation_wheel"
+        android:enabled="true"
+        android:icon="@drawable/wheel"
+        android:title="@string/title_wheel"
+        app:showAsAction="ifRoom|withText"/>
+    <item
+        android:id="@+id/navigation_calendar"
+        android:enabled="true"
+        android:icon="@drawable/calendar"
+        android:title="@string/title_calendar"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/navigation_daily"
+        android:enabled="true"
+        android:icon="@drawable/star"
+        android:title="@string/title_daily"
+        app:showAsAction="ifRoom|withText"/>
+
+    <item
+        android:id="@+id/navigation_setting"
+        android:enabled="true"
+        android:icon="@drawable/setting"
+        android:title="@string/title_setting"
+        app:showAsAction="ifRoom|withText"/>
+
+
+</menu>
